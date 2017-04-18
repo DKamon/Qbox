@@ -1,0 +1,380 @@
+/* Responsive styles
+================================================== */
+
+/* Large Devices, Wide Screens */
+@media (min-width : 1200px) {
+	
+}
+
+
+/* Medium Devices, Desktops */
+@media (min-width : 992px) {
+
+#large-header{
+	height: 650px !important;
+	width: 100%;
+}
+
+
+.featured-tab .tab-info h3 {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.featured-tab .tab-pane i.big {
+    font-size: 140px;
+    float: none;
+    margin-bottom: 36px;
+}
+.info-box{
+	/*margin-left: 40px;*/
+}
+.info-icon{
+	/*display: block;*/
+}
+
+
+}
+
+/* Small Devices, Tablets */
+@media (min-width : 768px) and (max-width: 991px) {
+
+
+#large-header{
+	height: 720px !important;
+	width: 100%;
+}
+
+/*==============================================
+	FEATURE TAB
+================================================*/
+.featured-tab ul{
+	margin-bottom:40px;
+}
+
+.featured-tab .tab-pane i.big{
+	font-size: 100px;
+	float:none;
+	margin-bottom: 30px;
+	display: block;
+}
+
+.featured-tab .tab-pane h3 {
+	clear: both;
+	margin: 20px 0px;
+}
+
+.featured-tab .tab-pane img.pull-right {
+    margin-bottom: 30px;
+}
+
+/*====================================
+	 CONTACT INFO
+==========================================*/
+.info-box{
+	margin-left: 40px;
+}
+.info-icon{
+	display: block;
+}
+.info-icon i {
+    font-size: 34px;
+    line-height: 34px;
+}
+.info-desc{
+	margin-bottom: 25px;
+}
+
+.info-desc h3 {
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.info-desc p {
+    letter-spacing: 0px;
+}
+
+
+}
+
+/* Small Devices Potrait */
+
+@media (min-width : 480px) and (max-width: 767px)  {
+
+.logo img{
+	width: 150px;
+}
+#large-header{
+	height: 740px;
+	width: 100%;
+}
+
+/*=========================================
+	slider heading
+=============================================*/
+.main-title ,.sub-title ,.title {
+	padding: 50px 0px;
+}
+
+.main-title, .sub-title, .title {
+    padding: 0px 0px;
+}
+.main-title {
+    text-transform: uppercase;
+    font-size: 2.2em;
+    margin: 20px auto;
+}
+.sub-title{
+	width: 100%;
+	padding: 0px 20px;
+}	
+
+
+/*============================================
+	heading title
+===========================================*/
+.heading-title {
+    text-transform: uppercase;
+    font-weight: 400 !important;
+    font-size: 35px;
+    line-height: 35px;
+}
+.section-sub{
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+.heading-container p {
+    width: 80%;
+    margin: 20px auto 40px;
+   }
+
+
+
+/*========================================
+   TIMER
+===========================================*/
+#timer{
+
+}
+.countdown_row{
+	margin-bottom: 10px;
+}
+.countdown_section {
+	padding: 25px 30px;
+}
+
+
+/*==============================================
+	FEATURE TAB
+================================================*/
+.featured-tab ul{
+	margin-bottom:40px;
+}
+
+.featured-tab .tab-pane i.big{
+	font-size: 100px;
+	float:none;
+	margin-bottom: 30px;
+	display: block;
+}
+
+.featured-tab .tab-pane h3 {
+	clear: both;
+	margin: 20px 0px;
+}
+
+.featured-tab .tab-pane img.pull-right {
+    margin-bottom: 30px;
+}
+
+
+/*====================================
+	 CONTACT INFO
+==========================================*/
+.info-box {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.info-icon {
+	width: 80px;
+}
+.info-icon i {
+    font-size: 34px;
+    line-height: 34px;
+}
+.info-desc{
+	margin-bottom: 25px;
+}
+
+.info-desc h3 {
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.info-desc p {
+    letter-spacing: 0px;
+}
+
+.footer-box h4 {
+    letter-spacing: 1px;
+    line-height: 33px;
+}
+
+.footer-logo img{
+	width: 180px;
+}
+
+
+}
+
+@media (min-width : 360px) and (max-width: 640px)  {
+
+#large-header{
+	height: 700px !important;
+	width: 100%;
+}
+
+.sub-title{
+	width: 80%;
+	padding: 0px 20px;
+	margin: 20px auto 40px;
+}	
+
+}
+
+
+/* Custom, iPhone Retina */ 
+@media (min-width : 320px) and (max-width: 479px)  {
+
+.logo img{
+	width: 150px;
+}
+#large-header{
+	height: 680px !important;
+	width: 100%;
+}
+
+/*=========================================
+	slider heading
+=============================================*/
+.main-title ,.sub-title ,.title {
+	padding: 50px 0px;
+}
+
+.main-title, .sub-title, .title {
+    padding: 0px 0px;
+}
+.main-title {
+    text-transform: uppercase;
+    font-size: 30px;
+	margin: 25px auto;
+	line-height: 35px;
+}
+.sub-title{
+	width: 100%;
+	padding: 0px 20px;
+}	
+
+
+/*========================================
+   TIMER
+===========================================*/
+#timer{}
+.countdown_row{
+	margin-bottom: 10px;
+}
+.countdown_section {
+	padding: 25px 30px;
+}
+.countdown_amount{
+	font-size: 30px;
+	line-height: 30px;
+}
+
+/*==============================================
+	FEATURE TAB
+================================================*/
+.featured-tab ul{
+	margin-bottom:40px;
+}
+
+.featured-tab .tab-pane i.big{
+	font-size: 100px;
+	float:none;
+	margin-bottom: 30px;
+	display: block;
+}
+.featured-tab .tab-pane img.pull-right {
+    margin-bottom: 30px;
+}
+
+
+/*============================================
+	heading title
+===========================================*/
+.heading-title {
+    text-transform: uppercase;
+    font-weight: 400 !important;
+    font-size: 25px;
+}
+.section-sub{
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+.heading-container p {
+    width: 80%;
+    margin: 24px auto 44px;
+   }
+
+/*====================================
+	 CONTACT INFO
+==========================================*/
+
+.info-box {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.info-icon {
+	width: 80px;
+	display: block;
+}
+.info-icon i {
+    font-size: 24px;
+    line-height: 24px;
+}
+.info-desc{
+	margin-bottom: 25px;
+}
+
+.info-desc h3 {
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.info-desc p {
+    letter-spacing: 0px;
+}
+
+/*=======================================
+	FOOTER
+========================================*/
+.footer-logo img{
+	width: 150px;
+}
+
+.footer-box h4 {
+    letter-spacing: 1px;
+    line-height: 33px;
+}
+
+
+
+
+}
+
+

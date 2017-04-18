@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Subscribe</title>
+</head>
+
+<body>
+    <h1>Subscribe</h1>
+
+    {% if form.errors %}
+        <p style="color: red;">
+            Please correct the error(s) below.
+        </p>
+    {% endif %}
+
+    <form action="" method="post">
+        <div style="color: red">
+            {{ form.email.errors }}
+        </div>
+            <label for="id_email">Email*:</label>
+
+            {{ form.email }}
+ 
+        {% csrf_token %}
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+

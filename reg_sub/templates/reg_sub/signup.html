@@ -1,0 +1,82 @@
+<html>
+<head>
+    <title>SignUp</title>
+</head>
+
+<body>
+    <h1>SignUp</h1>
+
+    {% if form.errors %}
+        <p style="color: red;">
+            Please correct the error(s) below.
+        </p>
+    {% endif %}
+
+    <form action="" method="post" enctype="multipart/form-data">
+        <div style="color: red">
+            {{ form.name.errors }}
+        </div>
+            <label for="id_name">Name*:</label>
+
+            {{ form.name }}
+
+
+     <div style="color: red">
+            {{ form.college.errors }}
+        </div>
+            <label for="id_country">Institution*:</label>
+
+            {{ form.college }}
+
+        <div style="color: red">
+            {{ form.email.errors }}
+        </div>
+            <label for="id_email">Email*:</label>
+
+            {{ form.email }}
+  
+     <div style="color: red">
+            {{ form.contactno.errors }}
+        </div>
+            <label for="id_contact">Contact Number*:</label>
+
+            {{ form.contactno }}
+
+
+       <div style="color: red">
+            {{ form.profile.errors }}
+        </div>
+            <label for="id_profile">Profile:</label>
+
+            {{ form.profile }}
+
+       <div style="color: red">
+            {{ form.username.errors }}
+        </div>
+            <label for="id_username">Username*:</label>
+
+            {{ form.username }}
+
+       <div style="color: red">
+            {{ form.password1.errors }}
+        </div>
+            <label for="id_password1">Password*:</label>
+
+            {{ form.password1 }}
+
+       <div style="color: red">
+            {{ form.password2.errors }}
+        </div>
+            <label for="id_password">Confirm Password*:</label>
+
+            {{ form.password2 }}
+
+
+
+
+        {% csrf_token %}
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
